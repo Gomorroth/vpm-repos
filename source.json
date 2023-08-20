@@ -13,7 +13,8 @@
 	"url": "https://gomorroth.github.io/vpm-repos/index.json",
 	"githubRepos": [
 		"Gomorroth/LightController",
-		"Gomorroth/CopyComponentUtilities"
+		"Gomorroth/CopyComponentUtilities",
+		"Gomorroth/MAExpressionGenerator"
 	],
 	"packages": []
 }
