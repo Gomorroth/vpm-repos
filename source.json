@@ -14,7 +14,8 @@
 	"githubRepos": [
 		"Gomorroth/LightController",
 		"Gomorroth/CopyComponentUtilities",
-		"Gomorroth/MAExpressionGenerator"
+		"Gomorroth/MAExpressionGenerator",
+		"Gomorroth/ScreenCaptureUtilities"
 	],
 	"packages": []
 }
