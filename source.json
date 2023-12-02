@@ -15,7 +15,8 @@
 		"Gomorroth/LightController",
 		"Gomorroth/CopyComponentUtilities",
 		"Gomorroth/MAExpressionGenerator",
-		"Gomorroth/ScreenCaptureUtilities"
+		"Gomorroth/ScreenCaptureUtilities",
+		"Gomorroth/Clothfire"
 	],
 	"packages": []
 }
