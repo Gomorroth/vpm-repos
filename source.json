@@ -16,7 +16,8 @@
 		"Gomorroth/CopyComponentUtilities",
 		"Gomorroth/MAExpressionGenerator",
 		"Gomorroth/ScreenCaptureUtilities",
-		"Gomorroth/Clothfire"
+		"Gomorroth/Clothfire",
+		"Gomorroth/MouseJumpingSuppressor"
 	],
 	"packages": []
 }
