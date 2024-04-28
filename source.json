@@ -13,11 +13,9 @@
 	"url": "https://gomorroth.github.io/vpm-repos/index.json",
 	"githubRepos": [
 		"Gomorroth/LightController",
-		"Gomorroth/CopyComponentUtilities",
-		"Gomorroth/MAExpressionGenerator",
-		"Gomorroth/ScreenCaptureUtilities",
 		"Gomorroth/Clothfire",
-		"Gomorroth/MouseJumpingSuppressor"
+		"Gomorroth/MouseJumpingSuppressor",
+		"Gomorroth/MMDBlendshapeGenerator"
 	],
 	"packages": []
 }
