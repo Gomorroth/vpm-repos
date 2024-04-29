@@ -36,12 +36,9 @@ jobs:
 
       - uses: gomorroth/vpm-build-repository@v2
         with:
-          source: "source.json"
+          input: "source.json"
           output: "index.json"
           repo-token: ${{ github.token }}
-
-      - run: |
-          cat index.json 
 
       - uses: pnpm/action-setup@v3
         with:
