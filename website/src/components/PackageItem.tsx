@@ -3,6 +3,8 @@ import Link from "next/link";
 
 export default function PackageItem({packageInfo, onClick}: {packageInfo: PackageInfo, onClick?: () => void})
 {
+    const isOwnPackage = packageInfo.author && (typeof packageInfo.author === "string" && packageInfo.author === "Gomorroth") || (typeof packageInfo.author !== "string" && packageInfo.author?.name === "Gomorroth");
+    
     return (
         <div onClick={onClick} className="max-w-4xl w-full border-[1px] border-white/20 p-4 hover:bg-white/10 bg-black/30 backdrop-blur-3xl tracking-tighter flex-shrink-0 overflow-hidden transition-colors duration-300 ease-out">
           <span className="flex flex-col md:flex-row w-full md:items-center">
@@ -11,7 +13,7 @@ export default function PackageItem({packageInfo, onClick}: {packageInfo: Packag
             <p className="whitespace-nowrap text-sm">{packageInfo.name}</p>
           </span>
           
-          { packageInfo.author && <>
+          { (packageInfo.author && !isOwnPackage) && <>
               <div className="mx-2 w-4 flex-shrink"/>
               <span className="flex flex-row whitespace-nowrap text-sm">
                 <p className="mr-2">Author: </p>
