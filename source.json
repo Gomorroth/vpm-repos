@@ -17,7 +17,7 @@
 		"Gomorroth/MouseJumpingSuppressor",
 		"Gomorroth/MMDBlendshapeGenerator",
 		"bdunderscore/modular-avatar",
-		"bdunderscore/ndmf",
+		"bdunderscore/ndmf"
 	],
 	"packages": []
 }
