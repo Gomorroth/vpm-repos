@@ -15,7 +15,9 @@
 		"Gomorroth/LightController",
 		"Gomorroth/Clothfire",
 		"Gomorroth/MouseJumpingSuppressor",
-		"Gomorroth/MMDBlendshapeGenerator"
+		"Gomorroth/MMDBlendshapeGenerator",
+		"bdunderscore/modular-avatar",
+		"bdunderscore/ndmf",
 	],
 	"packages": []
 }
