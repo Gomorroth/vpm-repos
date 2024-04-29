@@ -40,7 +40,7 @@ export default function Home({repository}: InferGetStaticPropsType<typeof getSta
         </div>
         <div className="w-0 h-8 sm:h-full md:w-16"/>
         <div className={`flex flex-col items-center w-full h-full p-4 md:p-24 md:justify-center overflow-x-hidden overflow-y-auto ${sono.className}`}>
-          {packages.map(x => x ? <PackageItem key={x.name} packageInfo={x}/> : <div className="h-4 flex-shrink-0"/>)}
+          {packages.map(x => x ? <PackageItem key={x.name} packageInfo={x}/> : <div key={0} className="h-4 flex-shrink-0"/>)}
         </div>
       </main>
     </div>
