@@ -40,6 +40,9 @@ jobs:
           output: "index.json"
           repo-token: ${{ github.token }}
 
+      - run: |
+          cat index.json 
+
       - uses: pnpm/action-setup@v3
         with:
           version: 8
