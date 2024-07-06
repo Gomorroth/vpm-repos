@@ -12,7 +12,7 @@
 	"bannerUrl": "Website/banner.png",
 	"url": "https://gomorroth.github.io/vpm-repos/index.json",
 	"githubRepos": [
-		"Gomorroth/MouseJumpingSuppressor",
+		"Gomorroth/MouseJumpingSuppressor"
 	],
 	"packages": []
 }
